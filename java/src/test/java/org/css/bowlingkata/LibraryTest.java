@@ -3,12 +3,15 @@
  */
 package org.css.bowlingkata;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.fail;
 
 public class LibraryTest {
-    @Test public void testSomeLibraryMethod() {
-        Library classUnderTest = new Library();
+    @Test
+    @DisplayName("test something library method")
+    public void testSomeLibraryMethod() {
         fail();
     }
 }
